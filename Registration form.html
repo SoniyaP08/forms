@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>
+            Registration Form
+        </title>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=deivce-width,intial-scale=1">
+    <link rel="stylesheet" href="style(RF).css">
+    <style>
+        body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: scroll;
+    background: url(https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg);
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+    </style>
+    </head>
+    <body>
+        <div class="main">
+            <h1 style="border:2px solid lightgrey; ">Registration Form</h1>
+        <form action="#">
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" class="wid" placeholder="First name" required><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" class="wid" placeholder="Last name"><br>
+      <label for="dob">Date of Birth:</label><br>
+      <input type="text" id="dob" class="wid" placeholder="dd-mm-yy"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" class="wid" placeholder="name@gmail.com"><br>
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" class="wid"><br>
+      <label for="phone">Mobile Number:</label><br>
+      <input type="text" id="phone" class="wid" maxlength="10" placeholder="0000-000-000"><br>
+      <label for="gender">Gender:</label><br>
+      <input type="radio" id="gender" name="gen">Male
+      <input type="radio" id="gender" name="gen">Female<br>
+      <label for="address">Address:</label><br>
+      <textarea rows="3" cols="23" class="wid"name="address" id="address"></textarea><br>
+      <label for="course">Interested Courses:</label><br>
+      <select name="course" id="course" size="1" class="wid">
+        <option value="Python" selected>Python</option>
+        <option value="Java">Java</option>
+        <option value="C">C</option>
+      </select><br>
+      <input type="submit" style="float: left;" onclick="alert('Submitted Successfully!')">
+      <input type="reset" style="float: right;"><br>
+    </form><br>
+<div class="foot">Already have an account?<a href="C:\Users\Soniya Perisetti\Desktop\HTML\Login_form.html"> log in</a></div>
+</div>
+    </body>
+</html>

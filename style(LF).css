@@ -1,0 +1,52 @@
+
+.main{
+    width: 25%;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    padding: 5px 30px 5px;
+    border-radius: 40px;
+   border: 1px solid;
+    box-shadow: 1px 1px 10px aqua;
+   border-style: ridge;
+   border-color: aqua;
+}
+input[type=text],input[type=password]
+{
+    width: 100%;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+   border-bottom: 1px solid rgb(56, 232, 238);
+   background-color: inherit;
+   color: white;
+}
+input[type=button]
+{
+    width: 100%;
+    padding: 10px;;
+    border-radius: 50px;
+    margin: 0;
+    background-color:rgb(56, 232, 238);
+    border: none;
+    cursor: pointer;
+}
+.foot{
+    text-align: center;
+    padding-bottom: 10px;
+}
+input[type=text]:focus,input[type=password]:focus
+{
+   box-shadow: 0 0 3px 3px rgb(56, 232, 238);
+   border-bottom: 0;
+  outline: none;
+}
+a{
+    text-decoration: none;
+    font-style: oblique;
+    color:rgb(56, 232, 238);
+}
+span{
+    float:right;
+}

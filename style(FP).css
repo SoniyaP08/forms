@@ -1,0 +1,35 @@
+
+.form{
+    width: 25%;
+    color: rgb(184, 30, 223);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow:4px 4px 8px 0 rgba(0, 0, 0, 0.2), 4px 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+input[type=password],input[type=button]
+{
+      width: 90%;
+      margin:0 0 20px 5%;
+      padding: 10px;
+      outline: none;
+      border: 1px solid rgb(184, 30, 223);
+}
+input[type=button]
+{
+cursor: pointer;
+background-color: rgb(184, 30, 223);
+border: none;
+color: white;
+}
+input[type=button]:hover
+{
+       background-color: rgb(195, 79, 224);
+}
+input[type=password]:focus
+{
+border: 2px solid rgb(184, 30, 223);
+}
